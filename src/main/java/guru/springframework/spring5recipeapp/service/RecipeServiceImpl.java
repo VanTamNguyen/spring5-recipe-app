@@ -8,11 +8,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
-public class RecipeServiceIml implements RecipeService {
+public class RecipeServiceImpl implements RecipeService {
 
     private final RecipeRepository recipeRepository;
 
-    public RecipeServiceIml(RecipeRepository recipeRepository) {
+    public RecipeServiceImpl(RecipeRepository recipeRepository) {
         this.recipeRepository = recipeRepository;
     }
 
